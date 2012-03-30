@@ -1,0 +1,10 @@
+Options +Indexes
+
+
+IndexOptions SuppressHTMLPreamble IgnoreCase FoldersFirst
+
+HeaderName _header.html
+
+ReadmeName _footer.html
+
+IndexIgnore _header.html _footer.html _stijl.css .htaccess

@@ -1,0 +1,63 @@
+html {
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-family: Georgia, sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+}
+#overlord {
+  padding: 2em 10%;
+}
+[role='banner'] {
+}
+h1,
+h2 {
+  margin: 0;
+}
+h1 {
+  margin: .1em 0;
+  font-size: 1.7em;
+  line-height: 1.1;
+  color: #777;
+  text-shadow: 0 2px 0 #fff;
+}
+h2 {
+  font-size: 1.3em;
+  line-height: 1;
+  text-align: right;
+  font-weight: normal;
+  font-style: italic;
+  color: #666;
+  max-width: 33.1em;
+}
+ul {
+  list-style-type: none;
+  padding: 0 0.7em;
+  margin: 2em 0;
+  border-left: 3px dotted #ddd;
+}
+li {
+}
+li:first-child {
+  display: none;
+}
+a {
+  color: #00e;
+  text-decoration: none;
+}
+a:visited {
+  color: #551a8b;
+}
+a:hover {
+  color: #06e;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+}
+[role='contentinfo'] {
+}
