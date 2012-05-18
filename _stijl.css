@@ -4,13 +4,13 @@ html {
 body {
   margin: 0;
   font-size: 1.2em;
-  line-height: 1.6;
+  line-height: 1.2;
   font-family: Georgia, sans-serif;
   color: #333;
   background-color: #f7f7f7;
 }
 #overlord {
-  padding: 2em 10%;
+  padding: 2em 2em 2em 5em;
 }
 [role='banner'] {
 }
@@ -41,6 +41,7 @@ ul {
   border-left: 3px dotted #ddd;
 }
 li {
+  margin: .5em 0;
 }
 li:first-child {
   display: none;
@@ -62,7 +63,7 @@ a:focus {
 [role='contentinfo'] {
 }
 
-@media (min-width: 50em){
+@media (min-width: 720px){
   ul {
     -webkit-column-count: 2;
        -moz-column-count: 2;
@@ -77,7 +78,7 @@ a:focus {
   }
 }
 
-@media (min-width: 77em){
+@media (min-width: 1020px){
   ul {
     -webkit-column-count: 3;
        -moz-column-count: 3;
@@ -87,7 +88,7 @@ a:focus {
   }
 }
 
-@media (min-width: 104em){
+@media (min-width: 1320px){
   ul {
     -webkit-column-count: 4;
        -moz-column-count: 4;
@@ -97,12 +98,32 @@ a:focus {
   }
 }
 
-@media (min-width: 131em){
+@media (min-width: 1620px){
   ul {
     -webkit-column-count: 5;
        -moz-column-count: 5;
         -ms-column-count: 5;
          -o-column-count: 5;
             column-count: 5;
+  }
+}
+
+@media (min-width: 1920px){
+  ul {
+    -webkit-column-count: 6;
+       -moz-column-count: 6;
+        -ms-column-count: 6;
+         -o-column-count: 6;
+            column-count: 6;
+  }
+}
+
+@media (min-width: 2220px){
+  ul {
+    -webkit-column-count: 7;
+       -moz-column-count: 7;
+        -ms-column-count: 7;
+         -o-column-count: 7;
+            column-count: 7;
   }
 }
